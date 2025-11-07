@@ -60,7 +60,7 @@
 }
 
 .secc {
-  background-image: url(/images/mobil-back.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7)) , url("/images/mobil-back.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -81,7 +81,7 @@
 }
 @media(min-resolution:2dppx){
   .secc{
-    background-image: url("/images/back-img2x.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)) , url("/images/back-img2x.jpg");
   }
 }
 
@@ -90,7 +90,6 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(rgba(46, 47, 66, 0.7));
   opacity: 0;
   transition: opacity 0.4s ease;
   pointer-events: none;
@@ -544,20 +543,13 @@
   pointer-events: auto;
 }
 
-.menu-backdrop {
-  position: absolute;
-  inset: 0;
-  display: block;
-  background: rgba(17, 17, 17, 0.45);
-}
+
 
 .menu-panel {
   position: relative;
   z-index: 1;
-  width: 320px;
-  height: 640px;
-  max-width: 320px;
-  max-height: 640px;
+  width: 100%;
+  height: 100%;
   background: #ffffff;
   border-radius: 12px;
   padding: 24px;
