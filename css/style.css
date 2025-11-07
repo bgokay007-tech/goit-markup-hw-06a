@@ -60,7 +60,7 @@
 }
 
 .secc {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7)) , url("../images/mobil-back.jpg");
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7)) , url("/images/mobil-back.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -81,7 +81,7 @@
 }
 @media(min-resolution:2dppx){
   .secc{
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7)) , url("../images/back-img2x.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)) , url("/images/back-img2x.jpg");
   }
 }
 
@@ -1088,7 +1088,7 @@
     text-align: center;
 
     
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url("../images/back-img2x.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url("/images/back-img2x.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1833,7 +1833,7 @@
     box-sizing: border-box;
 
     background-image: linear-gradient(rgba(46, 47, 66, 0.7)) ,
-      url("../images/back-img2x.jpg");
+      url("/images/back-img2x.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
